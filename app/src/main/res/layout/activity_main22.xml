@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:background="@drawable/pthm2"
+tools:context=".Main22Activity"
+
+
+
+
+    >
+
+<ImageView
+    android:id="@+id/imageea"
+    android:layout_width="173dp"
+    android:layout_height="163dp"
+
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.231"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.954"
+    />
+
+<AutoCompleteTextView
+    android:id="@+id/editTextTextPersonName"
+    android:layout_width="353dp"
+    android:layout_height="40dp"
+    android:ems="10"
+    android:background="@drawable/shape"
+
+    android:visibility="invisible"
+    android:inputType="textPersonName"
+    android:singleLine="true"
+    android:textColor="@color/Black"
+    android:textColorHint="@color/Black"
+    android:completionThreshold="2"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.172"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.008" />
+
+
+<ImageButton
+    android:id="@+id/imageButton2"
+    android:layout_width="48dp"
+    android:layout_height="41dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="1.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+
+    app:layout_constraintVertical_bias="0.008"
+    app:srcCompat="?android:attr/actionModeWebSearchDrawable" />
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="-16dp">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="29dp"
+            android:layout_marginBottom="609dp"
+
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="50dp"
+
+
+                >
+
+
+                <ImageButton
+                    android:id="@+id/button1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="15dp"
+
+                    android:bottom="200dp"
+                    android:left="200dp"
+                    android:radius="100dp"
+                    android:right="200dp"
+                    android:src="@drawable/samsung"
+                    android:top="200dp"
+
+                    />
+
+
+                <ImageButton
+                    android:id="@+id/button2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="15dp"
+                    android:radius="10dp"
+                    android:src="@drawable/oneplus" />
+
+
+                <ImageButton
+                    android:id="@+id/button3"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="15dp"
+                    android:radius="10dp"
+                    android:src="@drawable/realme"
+
+                    app:layout_constraintVertical_bias="0.008" />
+
+                <ImageButton
+                    android:id="@+id/button4"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="15dp"
+                    android:radius="10dp"
+                    android:src="@drawable/apple"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.008" />
+
+                <ImageButton
+                    android:id="@+id/button5"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="15dp"
+                    android:radius="10dp"
+                    android:src="@drawable/vivo"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.008" />
+
+                <ImageButton
+                    android:id="@+id/button6"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="15dp"
+                    android:radius="10dp"
+                    android:src="@drawable/oppo"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.008" />
+
+                <ImageButton
+                    android:id="@+id/button7"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="15dp"
+                    android:radius="10dp"
+                    android:src="@drawable/mi"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.008" />
+
+                <ImageButton
+                    android:id="@+id/button8"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="15dp"
+                    android:radius="10dp"
+                    android:src="@drawable/motoo"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.008" />
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+        <LinearLayout
+            android:id="@+id/recyclerview"
+            android:layout_width="397dp"
+            android:layout_height="500dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="11dp"
+            android:layout_marginBottom="22dp">
+
+            <GridView
+                android:id="@+id/idGVCourses"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:numColumns="2">
+
+
+
+            </GridView>
+
+
+
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="233dp"
+            android:layout_height="40dp"
+            android:layout_above="@+id/recyclerview"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="165dp"
+            android:layout_marginBottom="26dp"
+            android:backgroundTint="@color/black"
+            android:text="Our Latest Smart Phones "
+            android:textColor="@color/Black"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="664dp"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/whit" />
+
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
